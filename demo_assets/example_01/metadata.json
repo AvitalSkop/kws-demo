@@ -3,7 +3,7 @@
     "true_word": "four",
     "pred_noisy": "no",
     "pred_enh": "four",
-    "noise": "dude_miaowing",
+    "noise": "Cat Meowing",
     "snr": 2.5,
     "label": "four",
     "noisy_correct": false,

@@ -1,11 +1,11 @@
 {
-    "filename": "f4504600_nohash_0.wav",
-    "true_word": "off",
-    "pred_noisy": "on",
-    "pred_enh": "off",
-    "noise": "doing_the_dishes",
+    "filename": "b72e58c9_nohash_1.wav",
+    "true_word": "tree",
+    "pred_noisy": "tree",
+    "pred_enh": "two",
+    "noise": "Dishwashing",
     "snr": 2.5,
-    "label": "off",
-    "noisy_correct": false,
-    "enh_correct": true
+    "label": "tree",
+    "noisy_correct": true,
+    "enh_correct": false
 }
