@@ -92,6 +92,13 @@ img{
     margin-bottom:8px;
 }
 
+.card-pred{
+    text-align:center;
+    font-size:18px;
+    font-weight:600;
+    margin-bottom:10px;
+}
+
 .result-line{
     text-align:center;
     font-size:20px;
@@ -166,24 +173,6 @@ Noise: Dishwashing | SNR: 2.5 dB
 
 </div>
 
-<div class="result-line">
-
-Noisy Prediction:
-
-<span class="bad">
-two
-</span>
-
-&nbsp;&nbsp;&nbsp;&nbsp;
-
-Enhanced Prediction:
-
-<span class="good">
-tree
-</span>
-
-</div>
-
 <div class="example-grid">
 
 <div class="card">
@@ -193,6 +182,10 @@ tree
 <audio controls>
 <source src="demo_assets/example_01/clean.wav" type="audio/wav">
 </audio>
+
+<div class="card-pred">
+Clean Prediction: <span class="good">tree</span>
+</div>
 
 <img src="demo_assets/example_01/clean_spectrogram.png">
 
@@ -207,6 +200,10 @@ tree
 <source src="demo_assets/example_01/noisy.wav" type="audio/wav">
 </audio>
 
+<div class="card-pred">
+Noisy Prediction: <span class="bad">two</span>
+</div>
+
 <img src="demo_assets/example_01/noisy_spectrogram.png">
 
 </div>
@@ -219,6 +216,10 @@ tree
 <audio controls>
 <source src="demo_assets/example_01/enhanced.wav" type="audio/wav">
 </audio>
+
+<div class="card-pred">
+Enhanced Prediction: <span class="good">tree</span>
+</div>
 
 <img src="demo_assets/example_01/enhanced_spectrogram.png">
 
@@ -240,24 +241,6 @@ Noise: White Noise | SNR: 2.5 dB
 
 </div>
 
-<div class="result-line">
-
-Noisy Prediction:
-
-<span class="bad">
-bed
-</span>
-
-&nbsp;&nbsp;&nbsp;&nbsp;
-
-Enhanced Prediction:
-
-<span class="good">
-dog
-</span>
-
-</div>
-
 <div class="example-grid">
 
 <div class="card">
@@ -267,6 +250,10 @@ dog
 <audio controls>
 <source src="demo_assets/example_02/clean.wav" type="audio/wav">
 </audio>
+
+<div class="card-pred">
+Clean Prediction: <span class="good">dog</span>
+</div>
 
 <img src="demo_assets/example_02/clean_spectrogram.png">
 
@@ -281,6 +268,10 @@ dog
 <source src="demo_assets/example_02/noisy.wav" type="audio/wav">
 </audio>
 
+<div class="card-pred">
+Noisy Prediction: <span class="bad">bed</span>
+</div>
+
 <img src="demo_assets/example_02/noisy_spectrogram.png">
 
 </div>
@@ -293,6 +284,10 @@ dog
 <audio controls>
 <source src="demo_assets/example_02/enhanced.wav" type="audio/wav">
 </audio>
+
+<div class="card-pred">
+Enhanced Prediction: <span class="good">dog</span>
+</div>
 
 <img src="demo_assets/example_02/enhanced_spectrogram.png">
 
@@ -314,24 +309,6 @@ Noise: Cat Meowing | SNR: 2.5 dB
 
 </div>
 
-<div class="result-line">
-
-Noisy Prediction:
-
-<span class="bad">
-no
-</span>
-
-&nbsp;&nbsp;&nbsp;&nbsp;
-
-Enhanced Prediction:
-
-<span class="good">
-four
-</span>
-
-</div>
-
 <div class="example-grid">
 
 <div class="card">
@@ -341,6 +318,10 @@ four
 <audio controls>
 <source src="demo_assets/example_03/clean.wav" type="audio/wav">
 </audio>
+
+<div class="card-pred">
+Clean Prediction: <span class="good">four</span>
+</div>
 
 <img src="demo_assets/example_03/clean_spectrogram.png">
 
@@ -355,6 +336,10 @@ four
 <source src="demo_assets/example_03/noisy.wav" type="audio/wav">
 </audio>
 
+<div class="card-pred">
+Noisy Prediction: <span class="bad">no</span>
+</div>
+
 <img src="demo_assets/example_03/noisy_spectrogram.png">
 
 </div>
@@ -367,6 +352,10 @@ four
 <audio controls>
 <source src="demo_assets/example_03/enhanced.wav" type="audio/wav">
 </audio>
+
+<div class="card-pred">
+Enhanced Prediction: <span class="good">four</span>
+</div>
 
 <img src="demo_assets/example_03/enhanced_spectrogram.png">
 
@@ -388,24 +377,6 @@ Noise: Exercise Bike | SNR: 7.5 dB
 
 </div>
 
-<div class="result-line">
-
-Noisy Prediction:
-
-<span class="bad">
-bed
-</span>
-
-&nbsp;&nbsp;&nbsp;&nbsp;
-
-Enhanced Prediction:
-
-<span class="good">
-bird
-</span>
-
-</div>
-
 <div class="example-grid">
 
 <div class="card">
@@ -415,6 +386,10 @@ bird
 <audio controls>
 <source src="demo_assets/example_04/clean.wav" type="audio/wav">
 </audio>
+
+<div class="card-pred">
+Clean Prediction: <span class="good">bird</span>
+</div>
 
 <img src="demo_assets/example_04/clean_spectrogram.png">
 
@@ -429,6 +404,10 @@ bird
 <source src="demo_assets/example_04/noisy.wav" type="audio/wav">
 </audio>
 
+<div class="card-pred">
+Noisy Prediction: <span class="bad">bed</span>
+</div>
+
 <img src="demo_assets/example_04/noisy_spectrogram.png">
 
 </div>
@@ -441,6 +420,10 @@ bird
 <audio controls>
 <source src="demo_assets/example_04/enhanced.wav" type="audio/wav">
 </audio>
+
+<div class="card-pred">
+Enhanced Prediction: <span class="good">bird</span>
+</div>
 
 <img src="demo_assets/example_04/enhanced_spectrogram.png">
 
@@ -462,24 +445,6 @@ Noise: Exercise Bike | SNR: 7.5 dB
 
 </div>
 
-<div class="result-line">
-
-Noisy Prediction:
-
-<span class="bad">
-on
-</span>
-
-&nbsp;&nbsp;&nbsp;&nbsp;
-
-Enhanced Prediction:
-
-<span class="good">
-off
-</span>
-
-</div>
-
 <div class="example-grid">
 
 <div class="card">
@@ -489,6 +454,10 @@ off
 <audio controls>
 <source src="demo_assets/example_05/clean.wav" type="audio/wav">
 </audio>
+
+<div class="card-pred">
+Clean Prediction: <span class="good">off</span>
+</div>
 
 <img src="demo_assets/example_05/clean_spectrogram.png">
 
@@ -503,6 +472,10 @@ off
 <source src="demo_assets/example_05/noisy.wav" type="audio/wav">
 </audio>
 
+<div class="card-pred">
+Noisy Prediction: <span class="bad">on</span>
+</div>
+
 <img src="demo_assets/example_05/noisy_spectrogram.png">
 
 </div>
@@ -515,6 +488,10 @@ off
 <audio controls>
 <source src="demo_assets/example_05/enhanced.wav" type="audio/wav">
 </audio>
+
+<div class="card-pred">
+Enhanced Prediction: <span class="good">off</span>
+</div>
 
 <img src="demo_assets/example_05/enhanced_spectrogram.png">
 
