@@ -1,11 +1,11 @@
 {
-    "filename": "e0315cf6_nohash_3.wav",
-    "true_word": "four",
-    "pred_noisy": "no",
-    "pred_enh": "four",
-    "noise": "Cat Meowing",
+    "filename": "b72e58c9_nohash_1.wav",
+    "true_word": "tree",
+    "pred_noisy": "two",
+    "pred_enh": "tree",
+    "noise": "Dishwashing",
     "snr": 2.5,
-    "label": "four",
+    "label": "tree",
     "noisy_correct": false,
     "enh_correct": true
 }
