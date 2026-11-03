@@ -5,6 +5,7 @@
 <head>
 
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>
 KWS Enhancement Demo
@@ -41,7 +42,7 @@ h2{
 
 .example-grid{
     display:grid;
-    grid-template-columns:1fr 1fr;
+    grid-template-columns:repeat(3, minmax(0, 1fr));
     gap:25px;
     margin-top:25px;
 }
@@ -71,6 +72,7 @@ img{
     width:100%;
     border:1px solid #cccccc;
 }
+
 
 .bad{
     color:red;
@@ -105,6 +107,19 @@ footer{
     margin-top:60px;
     text-align:center;
     color:#666;
+}
+
+@media (max-width: 900px){
+    body{
+        padding:16px;
+    }
+    .example-grid{
+        grid-template-columns:1fr;
+        gap:18px;
+    }
+    .result-line{
+        font-size:18px;
+    }
 }
 
 </style>
@@ -183,6 +198,7 @@ four
 
 </div>
 
+
 <div class="card">
 
 <h3>Enhanced Speech</h3>
@@ -192,6 +208,19 @@ four
 </audio>
 
 <img src="demo_assets/example_01/enhanced_spectrogram.png">
+
+</div>
+
+
+<div class="card">
+
+<h3>Clean Speech</h3>
+
+<audio controls>
+<source src="demo_assets/example_01/clean.wav" type="audio/wav">
+</audio>
+
+<img src="demo_assets/example_01/clean_spectrogram.png">
 
 </div>
 
@@ -243,6 +272,7 @@ off
 
 </div>
 
+
 <div class="card">
 
 <h3>Enhanced Speech</h3>
@@ -252,6 +282,19 @@ off
 </audio>
 
 <img src="demo_assets/example_02/enhanced_spectrogram.png">
+
+</div>
+
+
+<div class="card">
+
+<h3>Clean Speech</h3>
+
+<audio controls>
+<source src="demo_assets/example_02/clean.wav" type="audio/wav">
+</audio>
+
+<img src="demo_assets/example_02/clean_spectrogram.png">
 
 </div>
 
@@ -303,6 +346,7 @@ tree
 
 </div>
 
+
 <div class="card">
 
 <h3>Enhanced Speech</h3>
@@ -312,6 +356,19 @@ tree
 </audio>
 
 <img src="demo_assets/example_03/enhanced_spectrogram.png">
+
+</div>
+
+
+<div class="card">
+
+<h3>Clean Speech</h3>
+
+<audio controls>
+<source src="demo_assets/example_03/clean.wav" type="audio/wav">
+</audio>
+
+<img src="demo_assets/example_03/clean_spectrogram.png">
 
 </div>
 
@@ -363,6 +420,7 @@ dog
 
 </div>
 
+
 <div class="card">
 
 <h3>Enhanced Speech</h3>
@@ -372,6 +430,19 @@ dog
 </audio>
 
 <img src="demo_assets/example_04/enhanced_spectrogram.png">
+
+</div>
+
+
+<div class="card">
+
+<h3>Clean Speech</h3>
+
+<audio controls>
+<source src="demo_assets/example_04/clean.wav" type="audio/wav">
+</audio>
+
+<img src="demo_assets/example_04/clean_spectrogram.png">
 
 </div>
 
@@ -423,6 +494,7 @@ bird
 
 </div>
 
+
 <div class="card">
 
 <h3>Enhanced Speech</h3>
@@ -432,6 +504,19 @@ bird
 </audio>
 
 <img src="demo_assets/example_05/enhanced_spectrogram.png">
+
+</div>
+
+
+<div class="card">
+
+<h3>Clean Speech</h3>
+
+<audio controls>
+<source src="demo_assets/example_05/clean.wav" type="audio/wav">
+</audio>
+
+<img src="demo_assets/example_05/clean_spectrogram.png">
 
 </div>
 
