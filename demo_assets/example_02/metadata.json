@@ -1,11 +1,11 @@
 {
-    "filename": "6889b21f_nohash_0.wav",
-    "true_word": "dog",
-    "pred_noisy": "bed",
-    "pred_enh": "dog",
-    "noise": "White Noise",
+    "filename": "e0315cf6_nohash_3.wav",
+    "true_word": "four",
+    "pred_noisy": "no",
+    "pred_enh": "four",
+    "noise": "Cat Meowing",
     "snr": 2.5,
-    "label": "dog",
+    "label": "four",
     "noisy_correct": false,
     "enh_correct": true
 }
